@@ -1,3 +1,57 @@
+Goals of OS
+Maximum CPU utilization .=>CPU should not be idle
+Process Starvation .=>process is not executed due to other process...which should not happen it is necessary to get each process executed.
+High priority job execution.=>Before job eg,Anti-virus Scan. 
+
+Single process OS: 1time =~one job....no maximum  CPU utilization .not high priority job execution ..process starvation is there as one process keeps on execting.
+
+Hardware then software 
+
+Batch OS: punch cards where there during that era..
+Jobs where in punch cards.
+Operator sort job according to requirements and batches made According to similar  type of job.
+Each batch is being executed one by one.
+
+No maximum CPU utilization. 
+Process starvation
+No high priority jobs.
+
+Multiprogrammming OS: "often asked"
+
+Ready queue: jobs to be executed 
+
+Each job goes one by one in CPU.
+if one goes to I/o next process is executed other  is in wait state.
+This is called context switching.
+P1 IN WAIT STATE THEN EVERYTHING  IS STORED IN PCB(PROCESS  CONTROL BLOCK) P2 STATE  IS RESTRORED.
+
+Multiprogramming: CPU & context switching.
+Time sharing.
+Take some time quantum 100 ms ~1 quantum.
+Time is shared so responsive Ness increases.
+
+CPU utilization is more.
+No process starvation. 
+High priority job executed first.
+Multitasking.
+
+Multiprocessing os:context switching, Time sharing is there.
+CPU>1.
+No starvation at all.
+
+If 1 cpu is damaged cpu 2 and other will work.
+
+6.Distributed OS: losely coupled.
+One OS ~many CPU and Memory..(pCs say) connected in network.
+Different configuration...and Different  jobs can be done on all those..
+
+7.Real time os: error at minute level...more accuracy needed.fast execution and error free.
+Eg, Flight ATC nuclear plant.
+
+Imp type: 1st four OS
+
+Examples----
+
 1. Single Process OS - MS DOS
 
 2. Batch Process OS - Payroll system, bank statement, ATLAS
