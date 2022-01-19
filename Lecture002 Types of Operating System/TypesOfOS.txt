@@ -1,0 +1,14 @@
+1. Single Process OS - MS DOS
+
+2. Batch Process OS - Payroll system, bank statement, ATLAS
+
+3. Multi programming OS -THE
+
+4. Multi tasking OS - CTSS
+
+5. Multi processing OS - Windows
+
+6. Distributed OS - LOCUS, AIX operating system for IBM
+
+7. Real Time OS - Scientific experiments, medical imaging systems, industrial control systems, 
+                  weapon systems, robots, air traffic control systems
