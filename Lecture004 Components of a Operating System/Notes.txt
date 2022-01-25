@@ -1,0 +1,15 @@
+-> What is Spooling in OS? The expansion of spooling is simultaneous peripheral operations online.
+ Simultaneous means for example if two or more users issue the print command, and the printer can 
+ accept the requests even the printer printing some other jobs. The printer printing one job, 
+ at the same time the " Spool Disk " can load some other jobs.
+
+1. Nano kernal - It is the type of kernel that offers hardware abstraction but without system services. 
+Micro Kernel also does not have system services therefore the Micro Kernel and Nano Kernel have become analogous. ex. -EROS etc.
+Advantage - It offers hardware abstractions without system services
+Disadvantage - It is quite same as Micro kernel hence it is less used.
+
+2. Exo kernal - It is the type of kernel which follows end-to-end principle. 
+It has fewest hardware abstractions as possible. 
+It allocates physical resources to applications. ex- Nemesis, ExOS etc.
+Advantage - It has fewest hardware abstractions.
+Disadvantage - There is more work for application developers.
