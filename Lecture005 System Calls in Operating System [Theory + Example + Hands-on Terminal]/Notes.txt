@@ -1,0 +1,66 @@
+Examples of system calls
+
+PROCESS CONTROL
+
+1. fork() - It is used to create processes. It takes no arguments and returns a process ID. 
+	    The purpose of fork()is to create a newprocess, which becomes the child process of the caller.
+
+2. exit() - The exit () system call is used by a program to terminate its execution. 
+	    The operating system reclaims resources that were used by the process after the exit () system call.
+
+3. wait() - A call to wait () blocks the calling process until one of its child processes exits or a signal is received. 
+	    After child process terminates, parent continues its execution after wait system call instruction.
+
+FILE MANAGEMENT 
+
+1. open() - The open() system call is used to provide access to a file in a file system. 
+	    This system call allocates resources to the file and provides a handle that the process uses to refer to the file. 
+
+2. read() - The read() system call is used to access data from a file that is stored in the file system. 
+
+3. write() - The write() system calls writes the data from a user buffer into a device such as a file. 
+	     This system call is one of the ways to output data from a program.
+
+4. close() - The close() system call is used to terminate access to a file system. 
+	     Using this system call means that the file is no longer required by the program and so the buffers are flushed, 
+	     the file metadata is updated and the file resources are de-allocated.
+
+5. chmod() - The chmod command is used to change the access mode of a file. The name is an abbreviation of change mode.
+
+6. unmask() - umask() sets the calling process’s file mode creation mask (umask) to mask& 0777. 
+
+7. chown() - These system calls change the owner and group of the file specified by path or by fd. 
+	     Only a privileged process (Linux: one with the CAP_CHOWN capability) may change the owner of a file.
+
+DEVICE MANAGEMENT
+
+1. ioctl() - The Linux System calls under this is ioctl (). ioctl () is referred to as Input and Output Control. 
+	     ioctl is a system call for device-specific input/output operations and other operations which cannot be expressed by regular system calls. 
+	     It handles information and its transfer between the OS and the user program.
+
+2. read() - 
+
+3. write() -
+
+INFORMATION MANAGEMENT
+
+1. getpid() - The system call getpid simply returns the PID of the current process.
+
+2. alarm() - This system call sets an alarm clock for the delivery of a signal that when it has to be reached. 
+	     It arranges for a signal to be delivered to the calling process.
+
+3. sleep() - A typical sleep system call takes a time value as a parameter, specifying the minimum amount 
+	     of time that the process is to sleep before resuming execution. 
+
+COMMUNICATION
+
+1. pipe() - pipe() is a system call that facilitates inter-process communication. It opens a pipe, which is an area of main memory that is treated as a "virtual file". 
+	    The pipe can be used by the creating process, as well as all its child processes, for reading and writing.
+
+2. shmget() - shmget stands for shared memory segment. 
+	      It is mainly used for Shared memory communication. 
+	      This system call is used to access the shared memory and access the messages in order to communicate with the process.
+
+3. mmap() - This system call is used to access the shared memory and access the messages in order to communicate with the process. 
+	    This function call is used to map or unmap files or devices into memory. 
+	    The mmap () system call is responsible for mapping the content of the file to the virtual memory space of the process.
