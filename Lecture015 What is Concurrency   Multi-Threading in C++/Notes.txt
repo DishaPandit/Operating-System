@@ -1,0 +1,19 @@
+--> Concurrency -  It is the ability to execute multiple instructions at same time.
+
+--> How to achieve concurrency - We divide process into multiple threads which processes different instruction of the same process.
+
+--> Thread - Independent sub task of a process. Can be advantageous when we have >1 CPU. 
+It is done to achieve parallelism in the process. Ex. typing and doing spell check in MS Word simultaneously.
+
+--> Every thread has its TCB(Thread control block) just like PCB.
+
+--> Benefits of multithreading
+
+1. Responsiveness increases becoz several independent works are going on simultaneously
+2. Resource sharing - address of a particular process in shared among threads
+3. More economical - context switching between threads is fast
+4. Threads utilized multi core CPUs in a better way
+
+
+
+
